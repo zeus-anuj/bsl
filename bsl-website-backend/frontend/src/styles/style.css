@@ -1,0 +1,43 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+}
+
+/* styles.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    margin-right: 20px;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar-item {
+        margin: 5px 0;
+    }
+}
